@@ -1,0 +1,229 @@
+:root{
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafo: 'Open Sans', sans-serif;
+
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097a7;
+    --gris: #757575;
+}
+
+
+/* Globales */
+html{
+    box-sizing: border-box; /* Hack para box model */
+    font-size: 62.5%;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
+body{
+    font-size: 1.6rem;
+    font-family: var(--fuenteParrafo);
+    line-height: 2;
+    background-image: linear-gradient(to top, #e2e9e2 0%, var(--blanco) 100%);
+}
+
+/* Globales */
+.contenedor{
+    width: 80%;
+    margin:0 auto;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+h1, h2,h3,h4{
+    font-family: var(--fuenteHeading);
+    line-height: 2;
+}
+
+
+h1{
+    font-size: 6.8rem;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+h3{
+    font-size: 4.2rem;
+}
+
+h4{
+    font-size: 3.8rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Utilidades */
+.no-margin{
+    margin:0;
+}
+
+.no-padding{
+    padding:0;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+.color-header{
+    color: var(--blanco);
+}
+
+
+/* Navegación */
+.header{
+    height: 80rem; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../img/banner.jpeg);
+} 
+@media(min-width: 768px) {
+.header{
+    height: 55rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+}
+
+.header__texto{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+@media(min-width: 768px) {
+    .header__texto{
+        margin-top: 8rem;
+    }
+}
+
+.header__texto__h{
+    font-size: 4.8rem;
+}
+
+.header__texto__p{
+    font-size: 2.8rem;
+}
+
+.barra{
+    padding-top: 4rem;
+    
+}
+
+@media(min-width: 768px) {
+  .barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+
+
+@media(min-width: 768px) {
+    .navegacion{
+        display: flex;
+        gap: 5rem;
+        
+    }
+}
+
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 2.9rem;
+    
+    
+}
+
+.logo{
+    width: 28%;
+}
+
+/* Contenido principal */
+@media(min-width: 768px) {
+    .contenido-principal{
+        display: grid;
+        padding: 5rem 0 5rem 0;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        text-align: center;  
+    }
+}
+
+.contenido-principal{
+    display: grid;
+    justify-items: center;
+    text-align: center; 
+    row-gap: 5rem; 
+    padding: 15rem 0 5rem 0;
+}
+
+.contenido-principal__servicios{
+    text-align: center;
+    text-decoration: none;
+    color: var(--blanco);
+    height: 50rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+        
+}
+
+@media(min-width: 768px) {
+    .soporte{
+        background-image: url("https://picsum.photos/id/1076/600/400");
+        grid-row: 1/2;
+        grid-column: 1/3;
+    } 
+}
+
+.soporte{
+    background-image: url("https://picsum.photos/id/1076/600/400");
+    
+}
+
+.parametros{
+    background-image: url("https://picsum.photos/id/1081/600/400");
+}
+
+.iot{
+    background-image: url("https://picsum.photos/id/743/600/400");
+}
+
+.especializados{
+    background-image: url("https://picsum.photos/id/870/600/400");
+}
+
+.radio{
+    background-image: url("https://picsum.photos/id/945/600/400");
+}
+
+
+
+
+.footer{
+    background-color: rgb(4, 28, 44);
+    color: var(--blanco);
+    font-size: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    height: 12rem;
+}
+
