@@ -1,6 +1,6 @@
 :root{
-    --fuenteHeading: 'PT Sans', sans-serif;
-    --fuenteParrafo: 'Open Sans', sans-serif;
+    --fuenteHeading: Arial, Helvetica, sans-serif;
+    --fuenteParrafo: sans-serif,Arial, Helvetica;
 
     --blanco: #ffffff;
     --negro: #212121;
