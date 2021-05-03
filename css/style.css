@@ -88,7 +88,7 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background: linear-gradient( rgba(0, 0, 0, -0.6), rgba(0, 0, 0, -0.6) ), url(../img/banner.jpeg);
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../img/banner.jpeg);
 } 
 @media(min-width: 768px) {
 .header{
@@ -194,24 +194,24 @@ img{
 }
 
 .soporte{
-    background-image: url("https://picsum.photos/id/1076/600/400");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(../img/soporte.jpeg);
     
 }
 
 .parametros{
-    background-image: url("https://picsum.photos/id/1081/600/400");
+    background-image:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../img/medicion.jpeg);
 }
 
 .iot{
-    background-image: url("https://picsum.photos/id/743/600/400");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(../img/iot.jpeg);
 }
 
 .especializados{
-    background-image: url("https://picsum.photos/id/870/600/400");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(../img/especializado.jpeg);
 }
 
 .radio{
-    background-image: url("https://picsum.photos/id/945/600/400");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(../img/radio.jpeg);
 }
 
 
